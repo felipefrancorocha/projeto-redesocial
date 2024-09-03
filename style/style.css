@@ -30,6 +30,7 @@ section#computador {
 
     height: 500px;
     width: 600px;
+
     background: url('../imagens/frame-windows.png') no-repeat;
 }
 
@@ -39,4 +40,23 @@ iframe#tela {
     left: 22px;
     width: 555px;
     height: 350px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.267);
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.411);
+    transition: transform 0.3s;
 }
