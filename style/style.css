@@ -22,12 +22,21 @@ main {
     position: relative;
 }
 
-section#telefone {
+section#computador {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
+
+    height: 500px;
+    width: 600px;
+    background: url('../imagens/frame-windows.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 20px;
+    left: 22px;
+    width: 555px;
+    height: 350px;
 }
